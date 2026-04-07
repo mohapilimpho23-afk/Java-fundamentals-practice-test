@@ -62,6 +62,7 @@ score >= 75	"Distinction"
 score >= 60	"Merit"
 score >= 50	"Pass"
 anything else	"Fail"
+
 public static String gradeScore(int score) {
     if (          ) {           // fix: check for invalid range
         return "Invalid";
