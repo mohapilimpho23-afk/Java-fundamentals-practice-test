@@ -19,7 +19,7 @@ public class Fundamentals {
     }
 
 
-    // TODO: Question 2
+    // Question 2
     // Fix the two errors in this method:
     //   1. The increment operator is broken (hint: it should add n each time, not set)
     //   2. The comparison operator inside the if-statement is wrong
