@@ -18,7 +18,7 @@ There are also five comprehension questions — write your answers in `answers.t
 | 3 | `gradeScore(int score)` | Complete all missing conditions and the final return |
 | 4 | `longestWord(String sentence)` | Implement from scratch |
 
-Question 1 — isPrime(int n)
+## Question 1 — isPrime(int n)
 This method must return true if n is a prime number, and false otherwise. A prime number is greater than 1 and divisible only by 1 and itself.
 
 The code below contains a broken loop range, a wrong operator, and a broken return statement. Fix all three.
@@ -35,7 +35,7 @@ public static boolean isPrime(int n) {
 public static boolean isPrime(int n)
 Hint: a number is NOT prime if any divisor evenly divides it.
 
-Question 2 — printMultiples(int n, int limit)
+## Question 2 — printMultiples(int n, int limit)
 Fix the method so that it prints all multiples of n from n up to and including limit, each on its own line.
 
 Example: printMultiples(3, 12) should print: 3, 6, 9, 12
@@ -51,7 +51,7 @@ public static void printMultiples(int n, int limit) {
 }
 public static void printMultiples(int n, int limit)
 
-Question 3 — gradeScore(int score)
+## Question 3 — gradeScore(int score)
 Complete the method so that it returns a letter grade based on the rules below.
 
 You must handle the invalid case, complete the conditions, and fix the return statement at the end.
@@ -76,7 +76,7 @@ public static String gradeScore(int score) {
     }
 }
 
-Question 4 — longestWord(String sentence)
+## Question 4 — longestWord(String sentence)
 Implement the method so that it returns the longest word in a sentence. If two words are the same length, return the first one encountered. Ignore extra spaces between words.
 
 Input: "The quick brown fox"
