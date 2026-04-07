@@ -75,7 +75,7 @@ public static String gradeScore(int score) {
     } else {
         return ;                // fix: what goes here?
     }
-}
+} 
 
 ## Question 4 — longestWord(String sentence)
 Implement the method so that it returns the longest word in a sentence. If two words are the same length, return the first one encountered. Ignore extra spaces between words.
