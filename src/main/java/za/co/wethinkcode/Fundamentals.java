@@ -2,9 +2,8 @@ package za.co.wethinkcode;
 
 public class Fundamentals {
 
-    // ============================
-    // TODO: Question 1
-    // ============================
+   
+    // Question 1
     // Fix the three errors in this method:
     //   1. The loop condition is wrong (hint: you don't need to check up to n * n as-is)
     //   2. The operator in the if-statement is broken
@@ -19,9 +18,8 @@ public class Fundamentals {
         return false;
     }
 
-    // ============================
+
     // TODO: Question 2
-    // ============================
     // Fix the two errors in this method:
     //   1. The increment operator is broken (hint: it should add n each time, not set)
     //   2. The comparison operator inside the if-statement is wrong
@@ -33,9 +31,8 @@ public class Fundamentals {
         }
     }
 
-    // ============================
-    // TODO: Question 3
-    // ============================
+
+    // Question 3
     // Complete all the missing conditions and the final return statement.
     public static String gradeScore(int score) {
         if (          ) {         // fix: check for invalid range (below 0 or above 100)
@@ -51,9 +48,8 @@ public class Fundamentals {
         }
     }
 
-    // ============================
-    // TODO: Question 4
-    // ============================
+
+    // Question 4
     // Implement this method from scratch.
     // It must return the longest word in the sentence.
     // If two words share the same length, return the first one found.
