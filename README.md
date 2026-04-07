@@ -18,6 +18,79 @@ There are also five comprehension questions — write your answers in `answers.t
 | 3 | `gradeScore(int score)` | Complete all missing conditions and the final return |
 | 4 | `longestWord(String sentence)` | Implement from scratch |
 
+Question 1 — isPrime(int n)
+This method must return true if n is a prime number, and false otherwise. A prime number is greater than 1 and divisible only by 1 and itself.
+
+The code below contains a broken loop range, a wrong operator, and a broken return statement. Fix all three.
+
+public static boolean isPrime(int n) {
+    if (n <= 1) return false;
+    for (int i = 2; i < n * n; i++) {    // fix the loop condition
+        if (n % i =- 0) {                 // fix the operator
+            return true;                  // fix the return value
+        }
+    }
+    return false;
+}
+public static boolean isPrime(int n)
+Hint: a number is NOT prime if any divisor evenly divides it.
+
+Question 2 — printMultiples(int n, int limit)
+Fix the method so that it prints all multiples of n from n up to and including limit, each on its own line.
+
+Example: printMultiples(3, 12) should print: 3, 6, 9, 12
+
+The starter version has a broken loop condition, wrong operator, and broken increment.
+
+public static void printMultiples(int n, int limit) {
+    for (int i = n; i <= limit; i =+ n) {   // fix the increment operator
+        if (i % n = 0) {                       // fix the comparison
+            System.out.println(i);
+        }
+    }
+}
+public static void printMultiples(int n, int limit)
+
+Question 3 — gradeScore(int score)
+Complete the method so that it returns a letter grade based on the rules below.
+
+You must handle the invalid case, complete the conditions, and fix the return statement at the end.
+
+Condition	Required return value
+score < 0 or score > 100	"Invalid"
+score >= 75	"Distinction"
+score >= 60	"Merit"
+score >= 50	"Pass"
+anything else	"Fail"
+public static String gradeScore(int score) {
+    if (          ) {           // fix: check for invalid range
+        return "Invalid";
+    } else if (   ) {           // fix: distinction condition
+        return "Distinction";
+    } else if (   ) {           // fix: merit condition
+        return "Merit";
+    } else if (   ) {           // fix: pass condition
+        return "Pass";
+    } else {
+        return ;                // fix: what goes here?
+    }
+}
+
+Question 4 — longestWord(String sentence)
+Implement the method so that it returns the longest word in a sentence. If two words are the same length, return the first one encountered. Ignore extra spaces between words.
+
+Input: "The quick brown fox"
+Output: "quick" (or "brown" — both length 5, return whichever comes first)
+
+The method signature and a return statement placeholder are provided — the body is yours to write.
+
+public static String longestWord(String sentence) {
+
+    return longestWord;
+}
+public static String longestWord(String sentence)
+Hint: consider sentence.trim().split("\\s+") to handle extra spaces.
+
 ---
 
 ## Comprehension questions
