@@ -63,20 +63,6 @@ score >= 60	"Merit"
 score >= 50	"Pass"
 anything else	"Fail"
 
-public static String gradeScore(int score) {
-    if (          ) {           // fix: check for invalid range
-        return "Invalid";
-    } else if (   ) {           // fix: distinction condition
-        return "Distinction";
-    } else if (   ) {           // fix: merit condition
-        return "Merit";
-    } else if (   ) {           // fix: pass condition
-        return "Pass";
-    } else {
-        return ;                // fix: what goes here?
-    }
-} 
-
 ## Question 4 — longestWord(String sentence)
 Implement the method so that it returns the longest word in a sentence. If two words are the same length, return the first one encountered. Ignore extra spaces between words.
 
