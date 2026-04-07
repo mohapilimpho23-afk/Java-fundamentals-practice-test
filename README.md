@@ -1,4 +1,4 @@
-# oop-000-fun — Practice Test B
+# Practice Test 
 
 ## Overview
 
@@ -51,7 +51,7 @@ oop-000-fun/
 │   │   └── Fundamentals.java        ← edit this
 │   └── test/java/za/co/wethinkcode/
 │       └── FundamentalsTest.java    ← do not edit
-├── answers.txt                      ← write comprehension answers here
+├── answers.txt                      
 ├── pom.xml
 ├── .gitignore
 └── README.md
