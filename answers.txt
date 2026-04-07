@@ -1,0 +1,38 @@
+# Answers
+
+Write your answers to the comprehension questions below.
+Each answer should be in your own words.
+
+=============================================================
+Comprehension Question 1 — Low-level vs high-level languages
+=============================================================
+
+Your answer:
+
+
+=============================================================
+Comprehension Question 2 — Version control
+=============================================================
+
+Your answer:
+
+
+=============================================================
+Comprehension Question 3 — Build tools
+=============================================================
+
+Your answer:
+
+
+=============================================================
+Comprehension Question 4 — Java syntax: arrays vs ArrayLists
+=============================================================
+
+Your answer:
+
+
+=============================================================
+Comprehension Question 5 — Object-oriented programming
+=============================================================
+
+Your answer:
