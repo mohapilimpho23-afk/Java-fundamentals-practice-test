@@ -11,7 +11,7 @@ public class Fundamentals {
     public static boolean isPrime(int n) {
         if (n <= 1) return false;
         for (int i = 2; i < n * n; i++) {    // fix the loop condition
-            if (n % i =- 0) {                 // fix the operator
+            if (n % i == 0) {                 // fix the operator
                 return true;                  // fix this return value
             }
         }
@@ -25,7 +25,7 @@ public class Fundamentals {
     //   2. The comparison operator inside the if-statement is wrong
     public static void printMultiples(int n, int limit) {
         for (int i = n; i <= limit; i =+ n) {   // fix the increment
-            if (i % n = 0) {                      // fix the comparison operator
+            if (i % n == 0) {                      // fix the comparison operator
                 System.out.println(i);
             }
         }
@@ -35,16 +35,16 @@ public class Fundamentals {
     // Question 3
     // Complete all the missing conditions and the final return statement.
     public static String gradeScore(int score) {
-        if (          ) {         // fix: check for invalid range (below 0 or above 100)
+        if ( score < 0 || score > 100          ) {         // fix: check for invalid range (below 0 or above 100)
             return "Invalid";
-        } else if (   ) {         // fix: distinction (75 and above)
+        } else if ( score >= 75  ) {         // fix: distinction (75 and above)
             return "Distinction";
-        } else if (   ) {         // fix: merit (60 and above)
+        } else if ( score >= 60 ) {         // fix: merit (60 and above)
             return "Merit";
-        } else if (   ) {         // fix: pass (50 and above)
+        } else if ( score >= 50 ) {         // fix: pass (50 and above)
             return "Pass";
         } else {
-            return ;              // fix: what should be returned for a failing score?
+            return "Fail";              // fix: what should be returned for a failing score?
         }
     }
 
@@ -57,7 +57,7 @@ public class Fundamentals {
     // Example: longestWord("The quick brown fox") -> "quick"
     public static String longestWord(String sentence) {
 
-        return longestWord;
+        return "";
     }
 
 }

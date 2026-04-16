@@ -1,0 +1,5 @@
+#surefire_0
+#Thu Apr 16 14:40:19 SAST 2026
+basedir=/home/wtc/Desktop/Java-fundamentals-practice-test
+localRepository=/home/wtc/.m2/repository
+maven.ext.class.path=/home/wtc/.vscode/extensions/oracle.oracle-java-25.1.0/nbcode/java/maven-nblib/netbeans-eventspy.jar
